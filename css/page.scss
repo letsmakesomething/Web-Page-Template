@@ -1,0 +1,198 @@
+/* Page */
+
+/* Small */
+
+.page {}
+   .page__inner {}
+
+   /* Header */
+   .page__header {
+      padding: 20px;
+   }
+      .page__header__inner {}
+      .page__header__logo {
+         font-weight: bold;
+      }
+
+      /* Header Navigation */
+      .page__header__nav {
+         display: none;
+      }
+         .page__header__nav__list {
+            list-style: none;
+         }
+            .page__header__nav__list__item {
+               display: inline-block;
+               padding: 0;
+               a:link,
+               a:visited {
+                  color: inherit;
+                  text-decoration: none;
+               }
+               a:hover {}
+            }
+
+   /* Breadcrumbs */
+   .page__breadcrumbs {
+      padding: 20px;
+      border-top: 1px solid #efefef;
+      border-bottom: 1px solid #efefef;
+   }
+      .page__breadcrumbs__inner {}
+      .page__breadcrumbs__list {
+            list-style: none;
+      }
+         .page__breadcrumbs__list__item {
+            display: inline-block;
+            padding: 0;
+            font-size: 14px;
+            line-height: 14px;
+            a:link,
+            a:visited {
+               color: #666666;
+               text-decoration: none;
+            }
+            a:hover {}
+            &:after {
+               content: " » ";
+               color: #666666;
+            }
+         }
+         .page__breadcrumbs__list__item:last-child {
+               &:after {
+                  display: none;
+                  content: "";
+               }
+         }
+
+   /* Main */
+   .page__main {}
+      .page__main__inner {}
+
+   /* Hero */
+   .page__hero {
+      padding: 20px;
+      background-color: #efefef;
+   }
+      .page__hero__inner {}
+
+   /* Section */
+   .page__section {
+      padding: 20px;
+   }
+      .page__section__inner {}
+
+   /* Mobile Nav */
+   .page__mobile-nav {}
+      .page__mobile-nav__inner {}
+      .page__mobile-nav__list {
+         border-bottom: 1px solid #efefef;
+      }
+         .page__mobile-nav__list__item {
+            border-top: 1px solid #efefef;
+            a:link,
+            a:visited {
+               display: block;
+               padding: 10px 20px;
+               text-decoration: none;
+            }
+            a:hover {}
+         }
+
+   /* Footer */
+   .page__footer {
+      padding: 20px;
+   }
+      .page__footer__inner {}
+      .page__footer__copyright {}
+
+
+/* Medium */
+
+@media screen and (min-width: 768px) {
+
+   .page {}
+      .page__inner {}
+
+      /* Header */
+      .page__header {
+         padding: 20px 60px;
+      }
+         .page__header__inner {
+            max-width: 1200px;
+            margin: 0 auto;
+         }
+         .page__header__logo {
+            display: inline-block;
+         }
+         .page__header__nav {
+            display: inline-block;
+            float: right;
+         }
+            .page__header__nav__list {}
+               .page__header__nav__list__item {
+                  display: inline-block;
+                  a:link,
+                  a:visited {}
+                  a:hover {}
+               }
+
+      /* Breadcrumbs */
+      .page__breadcrumbs {
+         padding: 20px 60px;
+      }
+         .page__breadcrumbs__inner {
+            max-width: 1200px;
+            margin: 0 auto;
+         }
+         .page__breadcrumbs__list {}
+            .page__breadcrumbs__list__item {
+                  a:link,
+                  a:visited {}
+                  a:hover {}
+            }
+
+      /* Main */
+      .page__main {}
+         .page__main__inner {}
+
+      /* Hero */
+      .page__hero {
+         padding: 20px 60px;
+      }
+         .page__hero__inner {
+            max-width: 1200px;
+            margin: 0 auto;
+         }
+
+      /* Section */
+      .page__section {
+         padding: 20px 60px;
+      }
+         .page__section__inner {
+            max-width: 1200px;
+            margin: 0 auto;
+         }
+
+      /* Mobile Nav */
+      .page__mobile-nav {
+         display: none;
+      }
+         .page__mobile-nav__inner {}
+         .page__mobile-nav__list {}
+            .page__mobile-nav__list__item {
+               a:link,
+               a:visited {}
+               a:hover {}
+            }
+
+      /* Footer */
+      .page__footer {
+         padding: 20px 60px;
+      }
+         .page__footer__inner {
+            max-width: 1200px;
+            margin: 0 auto;
+         }
+         .page__footer__copyright {}
+}

@@ -1,0 +1,50 @@
+/* Typography */
+
+* {
+   font-size: 16px;
+   line-height: 21px;
+}
+
+h1 {
+   font-size: 28px;
+   line-height: 36px;
+}
+h2 {
+   padding: 10px 0 0;
+}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+p {
+   padding: 10px 0 0;
+   font-size: 16px;
+   line-height: 21px;
+}
+li {
+   padding: 10px 0 0;
+}
+
+a:link,
+a:visited {
+   color: inherit;
+   font-size: inherit;
+   line-height: inherit;
+   text-align: inherit;
+}
+
+@media screen and (min-width: 768px) {
+
+   * {}
+   h1 {}
+   h2 {}
+   h3 {}
+   h4 {}
+   h5 {}
+   h6 {}
+   p {}
+   li {}
+   a:link,
+   a:visited {}
+
+}

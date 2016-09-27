@@ -1,0 +1,19 @@
+/* Poor man's reset */
+
+/* Replace with your prefered reset and normalize framework */
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif; /* Sorry, I'm biased */
+}
+
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   content: "";
+   clear: both;
+   height: 0;
+   }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
