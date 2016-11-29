@@ -15,7 +15,7 @@ A starting point for a custom website page. It includes HTML, CSS and Javascript
 * Typography
 * Page
 
-## Sass
+### Sass
 Uses sass command line script to watch SCSS files and convert them to CSS.
 
 * Install SASS
