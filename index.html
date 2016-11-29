@@ -4,9 +4,17 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width">
    <title>Basic Page Template</title>
+
+   <!-- Render blocking styles -->
+   <style type="text/css"></style>
+
+   <!-- Render blocking javascript -->
+   <script type="text/javascript"></script>
+
    <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/typography.css">
    <link rel="stylesheet" href="css/page.css">
+
 </head>
 <body class='page'>
    <div class="page__inner">
@@ -14,9 +22,9 @@
       <!-- Header -->
       <header class="page__header">
          <div class="page__header__inner">
-            <div class="page__header__logo">
+            <figure class="page__header__logo">
                Logo
-            </div>
+            </figure>
             <!-- Header Navigation -->
             <nav class="page__header__nav">
                <ul class="page__header__nav__list">
@@ -96,5 +104,8 @@
       </footer>
 
    </div> <!-- end page__inner -->
+
+   <script src="js/page.js"></script>
+
 </body> <!-- end page -->
 </html>
