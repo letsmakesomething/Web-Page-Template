@@ -26,7 +26,7 @@ I'm using a lazy reset here, but I also recommend git.io/normalize
 I like to declare basic typographic styles for major elements like headlines, paragraphs and lists.
 
 ### css/page/page.css
-tyles for your page go here.
+Styles for your page go here.
 
 ## JS
 
