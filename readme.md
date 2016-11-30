@@ -20,16 +20,16 @@ Visit http://sass-lang.com/ for more tutorials.
 The CSS follows the BEM methodology. Learn more here: http://getbem.com/
 
 ### css/reset.scss
-* I'm using a lazy reset here, but I also recommend git.io/normalize
+I'm using a lazy reset here, but I also recommend git.io/normalize
 
 ### css/typography.css
-# I like to declare basic typographic styles for major elements like headlines, paragraphs and lists.
+I like to declare basic typographic styles for major elements like headlines, paragraphs and lists.
 
 ### css/page/page.css
-# Styles for your page go here.
+tyles for your page go here.
 
 ## JS
 
 ### js/page/page.js
-# Scripts for your page go here.
+Scripts for your page go here.
 https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript
